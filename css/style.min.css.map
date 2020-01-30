@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.scss"],"names":[],"mappings":"AAEA,KACE,eAHY,CAEd,QAII,mBAAoB,CACrB,EAID,sCAAY,CAAZ,8BAA+B","file":"style.min.css","sourcesContent":["$color: yellow;\r\n\r\nbody{\r\n  background: $color;\r\n\r\n  h1 {\r\n    font-weight: lighter;\r\n  }\r\n}\r\n\r\na {\r\n  transition: all 0.5 ease-in-out;\r\n}"]}

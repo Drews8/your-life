@@ -1,0 +1,13 @@
+$color: yellow;
+
+body{
+  background: $color;
+
+  h1 {
+    font-weight: lighter;
+  }
+}
+
+a {
+  transition: all 0.5 ease-in-out;
+}
