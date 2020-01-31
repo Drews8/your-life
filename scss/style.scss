@@ -1,13 +1,46 @@
-$color: yellow;
+*,
+::before,
+::after{
+  box-sizing: border-box;
+}
+.timeline-inner{
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  width: 624px;
+  margin: 0 auto;
+}
+.week-block{
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  border-radius: 1px;
+  background: lightgray;
 
-body{
-  background: $color;
+  }
 
-  h1 {
-    font-weight: lighter;
+.hover{
+  position: absolute;
+  display: block;
+  width: 100px;
+  background: aqua;
+  text-align: center;
+  border-radius: 5px;
+  &::after{
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: aqua transparent transparent transparent;
   }
 }
-
-a {
-  transition: all 0.5 ease-in-out;
+.present-life {
+  background: hotpink;
+}
+.perfect-life {
+  background: dimgray;
 }
